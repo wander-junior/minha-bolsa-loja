@@ -1,0 +1,22 @@
+.identificador {
+    background-color: #F3F4F5;
+    padding-top: 80px;
+    color: #9C4432;
+}
+
+.identificador h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.identificador .login #email    {
+    width: 280px;
+    height: 40px;
+    padding: 6px;
+    background-color: #F3F4F5;
+    border: 4px solid #9C4432;
+    font-size: 18px;
+}
