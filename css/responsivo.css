@@ -67,13 +67,19 @@
         line-height: 20px;
     }
 
+    .footer {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     .footer ul li {
         font-size: 14px;
         line-height: 20px;
     }
 
     .footer .pagamentos {
-        text-align: left;
+        float: left;
+        max-width: 200px;
     }
 
     .identificador {

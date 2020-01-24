@@ -214,7 +214,18 @@ header ul li a:hover {
 }
 
 .pagamentos {
-    text-align: right;
+    float: right;
+    max-width: 220px;
+}
+
+.pagamentos ul li {
+    display: inline-block;
+}
+
+.pagamentos ul li img{
+    display: inline-block;
+    height: 20px;
+    padding-right: 20px;
 }
 
 /* Autoria */
