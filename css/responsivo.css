@@ -23,18 +23,19 @@
     
     .header ul li input{
         margin-left: 0px;
-        width: 14em;
+        width: 15em;
         height: 25px;
     }
 
     .header ul li button {
+        margin-right: 0;
         float: right;
         padding: 2.5px 5px;
     }
 
     .header ul li:nth-child(3){
         margin-top: -100px;
-        margin-left: -50px;
+        margin-left: -100px;
     }
 
     .header ul li:last-child {
@@ -103,11 +104,5 @@
 
     .identificador .prosseguir-cadastro {
         margin: 20px 0;
-    }
-}
-
-@media (max-width: 390px) {
-    .header ul li:last-child {
-        margin-left: 0;
     }
 }
