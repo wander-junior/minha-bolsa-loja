@@ -19,32 +19,6 @@
     padding-bottom: 20px;
 }
 
-.identificador input {
-    width: 280px;
-    height: 40px;
-    padding: 6px;
-    background-color: #F3F4F5;
-    border: 4px solid #9C4432;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-size: 18px;
-}
-
-.identificador .btn-prosseguir {
-    background-color: #9c4432;
-    color: #F3F4F5;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    width: 160px;
-    height: 40px;
-    margin: 20px 0;
-}
-
-.identificador .btn-prosseguir:hover {
-    color: black;
-}
-
 .linha-vertical {
     border-right: 2px solid;
     box-sizing: border-box;
