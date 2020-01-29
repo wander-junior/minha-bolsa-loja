@@ -126,6 +126,10 @@
         margin-top: 0;
     }
 
+    .dados .value {
+        margin-bottom: 10px;
+    }
+
     .cadastro h2 {
         text-align: center;
     }
