@@ -37,19 +37,23 @@
             <h1>Identificação</h1>
             <div class="login grid-5">
                 <h2>Já sou cadastrado</h2>
-                <span>Email:</span>
-                <input type="email" name="email" class="field">
-                <span>Senha:</span>
-                <input type="password" name="senha" class="field">
-                <a><button class="btn">Prosseguir</button></a>
+                <form>
+                    <span><label for="email">Email:</label></span>
+                    <input type="email" name="email" class="field" id="email" required>
+                    <span><label for="senha">Senha:</label></span>
+                    <input type="password" name="senha" class="field" id="senha" required>
+                    <a><button class="btn">Prosseguir</button></a>
+                </form>
             </div>
             <div class="linha-vertical grid-4"></div>
             <div class="linha-horizontal grid-4"></div>
             <div class="cadastrar grid-5">
                 <h2>Cadastrar</h2>
-                <span>Email:</span>
-                <input type="email" name="email-cadastro" class="field">
-                <a href="cadastro.html"><button class="btn prosseguir-cadastro">Prosseguir</button></a>
+                <form action="cadastro.html">
+                    <span><label for="email">Email:</label></span>
+                    <input type="email" name="email-cadastro" class="field" id="email" required>
+                    <button class="btn prosseguir-cadastro">Prosseguir</button>
+                </form>
             </div>
         </div>
     </main>

@@ -34,150 +34,151 @@
 
     <section class="container cadastro">
         <h2 class="grid-16">Cadastro</h2>
-        <section class="dados grid-16">
+        <form>
+            <section class="dados grid-16">
+                
+                <h3>
+                    <i class="fas fa-id-card"></i>
+                    Dados para acesso
+                </h3>
 
-            <h3>
-                <i class="fas fa-id-card"></i>
-                Dados para acesso
-            </h3>
+                <div class="value">
+                    <div class="grid-6">
+                        <span>
+                            <i class="fas fa-envelope"></i>
+                            <label for="email">E-mail</label>
+                        </span><br>
+                        <input type="email" name="email" id="email" class="field" required>    
+                    </div>
+                    <div class="grid-2"></div>
+                    <div class="grid-6">
+                        <span>
+                            <label for="confirm-email">Confirmar e-mail</label>
+                        </span><br>
+                        <input type="email" name="email" id="confirm-email" class="field" required>
+                    </div>
+                </div>
 
-            <div class="value">
+                <div class="value">
+                    <div class="grid-6">
+                        <span>
+                            <i class="fas fa-key"></i>
+                            <label for="senha">senha</label>
+                        </span><br>
+                        <input type="password" name="senha" class="field" id="senha" required>    
+                    </div>
+                    <div class="grid-2"></div>
+                    <div class="grid-6">
+                        <span>
+                            <label for="confirm-senha">Confirmar senha</label>
+                        </span><br>
+                        <input type="password" name="senha" class="field" id="confirm-senha" required>
+                    </div>
+                <div>
+            </section>
+
+
+            <section class="dados grid-8">
+                <h3 class="lesser-separator">
+                    <i class="fas fa-user"></i>
+                    Dados pessoais
+                </h3>
                 <div class="grid-6">
                     <span>
-                        <i class="fas fa-envelope"></i>
-                        E-mail
+                        <label for="nome">Nome</label>
                     </span><br>
-                    <input type="email" name="email" class="field">    
+                    <input type="text" name="nome" class="field" id="nome" required>
                 </div>
-                <div class="grid-2"></div>
-                <div class="grid-6">
+                <div class="grid-6 secundarios">
                     <span>
-                        Confirmar e-mail
+                        <label for="cpf">CPF</label>
                     </span><br>
-                    <input type="email" name="email" class="field">
+                    <input type="number" name="cpf" class="field" id="cpf" required>
                 </div>
-            </div>
-
-            <div class="value">
-                <div class="grid-6">
+                <div class="grid-6 secundarios">
                     <span>
-                        <i class="fas fa-key"></i>
-                        Senha
+                        <label for="telefone">Telefone</label>
                     </span><br>
-                    <input type="password" name="senha" class="field">    
+                    <input type="tel" name="telefone" class="field" id="telefone" required>
                 </div>
-                <div class="grid-2"></div>
-                <div class="grid-6">
-                    <span>
-                        Confirmar senha
-                    </span><br>
-                    <input type="password" name="senha" class="field">
-                </div>
-            <div>
-        </section>
+            </section>
 
-
-        <section class="dados grid-8">
-            <h3 class="lesser-separator">
-                <i class="fas fa-user"></i>
-                Dados pessoais
-            </h3>
-            <div class="grid-6">
-                <span>
-                    Nome
-                </span><br>
-                <input type="text" name="nome" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
-                    CPF
-                </span><br>
-                <input type="number" name="cpf" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
-                    Telefone
-                </span><br>
-                <input type="tel" name="telefone" class="field">
-            </div>
-        </section>
-
-        <section class="dados grid-8">
-            <h3 class="lesser-separator">
-                <i class="fas fa-map-marker-alt"></i>
-                Endereço
-            </h3>
-
-            <div class="grid-6">
-                <span>
-                    CEP
-                </span><br>
-                <input type="text" name="cep" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
+            <section class="dados grid-8">
+                <h3 class="lesser-separator">
+                    <i class="fas fa-map-marker-alt"></i>
                     Endereço
-                </span><br>
-                <input type="texte" name="endereco" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
-                    Numero
-                </span><br>
-                <input type="number" name="numero" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
-                    Bairro
-                </span><br>
-                <input type="text" name="bairro" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
-                    Cidade
-                </span><br>
-                <input type="text" name="cidade" class="field">
-            </div>
-            <div class="grid-6 secundarios">
-                <span>
-                    Cidade
-                </span><br>
-                <select name="estados-brasil" class="field">
-                    <option value="AC">Acre</option>
-                    <option value="AL">Alagoas</option>
-                    <option value="AP">Amapá</option>
-                    <option value="AM">Amazonas</option>
-                    <option value="BA">Bahia</option>
-                    <option value="CE">Ceará</option>
-                    <option value="DF">Distrito Federal</option>
-                    <option value="ES">Espírito Santo</option>
-                    <option value="GO">Goiás</option>
-                    <option value="MA">Maranhão</option>
-                    <option value="MT">Mato Grosso</option>
-                    <option value="MS">Mato Grosso do Sul</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="PA">Pará</option>
-                    <option value="PB">Paraíba</option>
-                    <option value="PR">Paraná</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="PI">Piauí</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                    <option value="RN">Rio Grande do Norte</option>
-                    <option value="RS">Rio Grande do Sul</option>
-                    <option value="RO">Rondônia</option>
-                    <option value="RR">Roraima</option>
-                    <option value="SC">Santa Catarina</option>
-                    <option value="SP">São Paulo</option>
-                    <option value="SE">Sergipe</option>
-                    <option value="TO">Tocantins</option>
-                </select>
-            </div>
-        </section>
-        <div class="grid-8">-</div>
-        <div class="grid-8">
-            <a><button class="btn">Cadastrar</button></a>
-        </div>
+                </h3>
 
+                <div class="grid-6">
+                    <span>
+                        <label for="cep">CEP</label>
+                    </span><br>
+                    <input type="text" name="cep" class="field" id="cep" required>
+                </div>
+                <div class="grid-6 secundarios">
+                    <span>
+                        <label for="endereco">Endereço</label>
+                    </span><br>
+                    <input type="text" name="endereco" class="field" id="endereco" required>
+                </div>
+                <div class="grid-6 secundarios">
+                    <span>
+                        <label for="numero">Número</label>
+                    </span><br>
+                    <input type="number" name="numero" class="field" id="numero" required>
+                </div>
+                <div class="grid-6 secundarios">
+                    <span>
+                        <label for="bairro">Bairro</label>
+                    </span><br>
+                    <input type="text" name="bairro" class="field" id="bairro" required>
+                </div>
+                <div class="grid-6 secundarios">
+                    <span>
+                        <label for="cidade">Cidade</label>
+                    </span><br>
+                    <input type="text" name="cidade" class="field" id="cidade" required>
+                </div>
+                <div class="grid-6 secundarios">
+                    <span>
+                        <label for="estado">Estado</label>
+                    </span><br>
+                    <select name="estados-brasil" class="field" id="estado" required>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+            </section>
+            <div class="grid-8">-</div>
+            <div class="grid-8">
+                <button class="btn">Cadastrar</button>
+            </div>
+        </form>
     </section>
 
     <footer class="footer">
