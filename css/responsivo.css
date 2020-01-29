@@ -4,6 +4,22 @@
     .header ul li input{
         width: 20em;
     }
+
+    .cadastro .dados h3::after {
+        width: calc(100% - 60px);
+    }
+
+    .cadastro .value {
+        display: grid;
+    }
+
+    .cadastro .value .field {
+        width: 600px;
+    }
+
+    .cadastro .field {
+        width: 100%;
+    }
 }
 
 /* Responsividade em Smartphones */
@@ -104,5 +120,38 @@
 
     .identificador .prosseguir-cadastro {
         margin: 20px 0;
+    }
+
+    .cadastro {
+        margin-top: 0;
+    }
+
+    .cadastro h2 {
+        text-align: center;
+    }
+
+    .cadastro h3 {
+        font-size: 18px;
+    }
+
+    
+    .cadastro .value .field {
+        width: 200px;
+    }
+
+    .cadastro .field {
+        width: 200px;
+    }
+
+    .cadastro .space {
+        display: none;
+    }
+
+    .cadastro .secundarios {
+        margin-top: 10px;
+    }
+
+    .cadastro .secundarios:last-child {
+        margin-bottom: inherit;
     }
 }
