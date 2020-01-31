@@ -1,0 +1,65 @@
+.produto {
+    color: #9C4432;
+    margin-top: 100px;
+}
+
+.produto .imagens {
+    float: left;
+    display: inline-block;
+}
+
+.imagens .icones > div{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sobre h2 {
+    margin: 30px 0;
+    font-size: 36px;
+}
+
+.sobre span {
+    display: inherit;
+    margin-top: 5px;
+}
+
+.sobre .btn {
+    width: 220px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.sobre input {
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.sobre .calc-cep {
+    margin-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sobre .calc-cep:hover{
+    color: #000;
+}
+
+.sobre .descricao {
+    margin-top: 20px;
+    color: #9C4432;
+    border: 0px solid;
+    box-shadow: 0px 2px 4px #000000 ;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.descricao h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.descricao span {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

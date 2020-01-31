@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produto.css">
     <link rel="stylesheet" href="css/responsivo.css">
     
     <script src="https://kit.fontawesome.com/7f6aa1f574.js" crossorigin="anonymous"></script>
@@ -17,7 +18,7 @@
         <div class="container">
             <nav class="grid-16">
                 <ul>
-                    <li><a href="#"><h1>Minha Bolsa Loja</h1></a></li>
+                    <li><a href="index.html"><h1>Minha Bolsa Loja</h1></a></li>
                     <li class="search">
                         <input type="text">
                         <button type="submit"><i class="fa fa-search"></i></button>
@@ -30,72 +31,35 @@
             </nav>
         </div>
     </header>
-    <div class="chamada">
-        <div class="container">
-            <ul data-slide="promocao">
-                <li>
-                    <a href=""><img src="img/promocao1.png" alt="Promoção"></a>
-                </li>
-                <li>
-                    <a href=""><img src="img/promocao2.png" alt="Promoção"></a>
-                </li>
-            </ul>
+
+    <div class="container produto">
+        <div class="imagens">
+            <div class="grid-8">
+                <img src="img/img-sample-big.jpg" alt="Bolsa">
+            </div>
+            <div class="icones">
+                <div class="grid-4">
+                    <img src="img/img-sample.jpg" alt="Bolsa">
+                </div>
+                <div class="grid-4">
+                    <img src="img/img-sample.jpg" alt="Bolsa">
+                </div>
+            </div>
+        </div>
+        <div class="grid-8 sobre">
+            <h2>Bolsa 1</h2>
+            <span>R$100,00</span>
+            <span>Até 2x de R$50,00</span>
+            <button class="btn">Comprar</button>
+            <span>Calcule o frete</span>
+            <input type="number" placeholder="Digite o CEP">
+            <span class="calc-cep">Calcular</span>
+            <div class="descricao">
+                <h3>Descrição</h3>
+                <span>Versatil, arrojado e com ótima qualidade no acabamento são algumas das características dessa bolsa. Essa bolsa recebe uma costura dupla, o que permite um maior reforço e durabilidade.</span>
+            </div>
         </div>
     </div>
-
-    <main class="produtos">
-        <div class="container">
-            <div class="grid-4">
-                <a href="produto.html">
-                    <img src="img/img-sample.jpg" alt="bolsa 1">
-                    <p>Bolsa 1</p>
-                    <div class="preco">R$100,00</div>
-                    <div class="subpreco">ou R$90,00 no debito</div>
-                </a>
-            </div>
-            <div class="grid-4">
-                <a href="produto.html">
-                    <img src="img/img-sample.jpg" alt="bolsa 1">
-                    <p>Bolsa 1</p>
-                    <div class="preco">R$100,00</div>
-                    <div class="subpreco">ou R$90,00 no debito</div>
-                </a>
-            </div>
-            <div class="grid-4">
-                <a href="produto.html">
-                    <img src="img/img-sample.jpg" alt="bolsa 1">
-                    <p>Bolsa 1</p>
-                    <div class="preco">R$100,00</div>
-                    <div class="subpreco">ou R$90,00 no debito</div>
-                </a>
-            </div>
-            <div class="grid-4">
-                <a href="produto.html">
-                    <img src="img/img-sample.jpg" alt="bolsa 1">
-                    <p>Bolsa 1</p>
-                    <div class="preco">R$100,00</div>
-                    <div class="subpreco">ou R$90,00 no debito</div>
-                </a>
-            </div>                       
-            <div class="grid-4">
-                <a href="produto.html">
-                    <img src="img/img-sample.jpg" alt="bolsa 1">
-                    <p>Bolsa 1</p>
-                    <div class="preco">R$100,00</div>
-                    <div class="subpreco">ou R$90,00 no debito</div>
-                </a>
-            </div>
-            <div class="grid-4">
-                <a href="produto.html">
-                    <img src="img/img-sample.jpg" alt="bolsa 1">
-                    <p>Bolsa 1</p>
-                    <div class="preco">R$100,00</div>
-                    <div class="subpreco">ou R$90,00 no debito</div>
-                </a>
-            </div>
-        </div>
-    </main>
-
     <footer class="footer">
         <div class="container">
 
@@ -132,7 +96,7 @@
             </div>
 
             <div class="grid-7 pagamentos">
-                Formas de pagamento
+                <span>Formas de pagamento</span>
                 <ul>
                     <li><img src="img/pag1.png" alt="visa"></li>
                     <li><img src="img/pag2.png" alt="mastercard"></li>
