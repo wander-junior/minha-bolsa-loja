@@ -5,4 +5,6 @@ new SimpleSlide({
     time: 5000, // tempo de transição dos slides
     pauseOnHover: true // pausa a transição automática
   });
-  
+
+VMasker(document.querySelector(".cep")).maskPattern("99.999-999");
+VMasker(document.querySelector(".cpf")).maskPattern("999.999.999-99");
