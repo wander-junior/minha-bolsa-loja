@@ -158,4 +158,27 @@
     .cadastro .secundarios:last-child {
         margin-bottom: inherit;
     }
+
+    .produto {
+        margin-top: 10px;
+    }
+
+    .produto .imagens > div {
+        margin-bottom: 5px;
+    }
+
+    .produto .icones > div {
+        height: 147px;
+        width: 147px;
+        display: inline-block;
+        margin-top: 0;
+    }
+
+    .produto .sobre {
+        text-align: center;
+    }
+    
+    .produto .sobre .descricao span{
+        text-align: left;
+    }
 }
