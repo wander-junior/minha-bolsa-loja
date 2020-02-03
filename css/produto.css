@@ -11,6 +11,11 @@
 .imagens .icones > div{ 
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.imagens .icones > div:hover{
+    border: 3px solid #9C4432;
 }
 
 .sobre h2 {
