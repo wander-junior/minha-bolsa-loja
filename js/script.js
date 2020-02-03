@@ -1,3 +1,5 @@
+// Carousel
+
 new SimpleSlide({
     slide: "promocao", // nome do atributo data-slide="principal"
     nav: true, // se deve ou não mostrar a navegação
@@ -5,6 +7,8 @@ new SimpleSlide({
     time: 5000, // tempo de transição dos slides
     pauseOnHover: true // pausa a transição automática
   });
+
+// Input Masks
 
 VMasker(document.querySelector(".cep")).maskPattern("99.999-999");
 VMasker(document.querySelector(".cpf")).maskPattern("999.999.999-99");
